@@ -25,6 +25,10 @@ public class TeacherInsertController extends HttpServlet
 		String email = req.getParameter("email");
 		long phone =Long.parseLong(req.getParameter("phone"));
 	//	long phone = Integer.parseInt(req.getParameter("phone"));
+		// teacher.setId(id);
+		// teacher.setName(name);
+		// teacher.setEmail(email);
+		// teacher.setPhone(phone);
 		teacher.setId(id);
 		teacher.setName(name);
 		teacher.setEmail(email);
